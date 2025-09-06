@@ -38,49 +38,50 @@
             // 
             // button1
             // 
-            button1.Location = new Point(336, 327);
+            button1.Location = new Point(338, 272);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "Entrar";
             button1.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(326, 251);
+            textBox1.Location = new Point(326, 228);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(100, 23);
             textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(326, 194);
+            textBox2.Location = new Point(326, 166);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(100, 23);
             textBox2.TabIndex = 2;
+            textBox2.TextAlign = HorizontalAlignment.Center;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(326, 159);
+            label1.Location = new Point(326, 148);
             label1.Name = "label1";
-            label1.Size = new Size(38, 15);
+            label1.Size = new Size(100, 15);
             label1.TabIndex = 3;
-            label1.Text = "label1";
+            label1.Text = "Usuario";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(331, 234);
+            label2.Location = new Point(326, 210);
             label2.Name = "label2";
-            label2.Size = new Size(38, 15);
+            label2.Size = new Size(100, 15);
             label2.TabIndex = 4;
-            label2.Text = "label2";
+            label2.Text = "Senha";
+            label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
             label3.Font = new Font("Microsoft JhengHei UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(179, 37);
+            label3.Location = new Point(182, 81);
             label3.Name = "label3";
             label3.Size = new Size(401, 45);
             label3.TabIndex = 5;
